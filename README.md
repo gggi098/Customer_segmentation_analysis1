@@ -62,11 +62,13 @@ using RFM (Recency, Frequency, Monetary) analysis on the UCI Online Retail II da
 |---|---|
 | Champions | Protect and reward — loyalty perks, VIP treatment |
 | Loyal Customers | Marketing to increase frequency/spend toward Champion status |
-| New Customers | High-priority nurture — strong onboarding and early incentives |
 | Big Spenders | Offer premium products, encourage frequency |
+| Potential Loyalist | Engagement campaigns to build purchase consistency and recency |
+| Frequent Spenders | Encourage higher basket value through bundling or upsell offers |
+| New | High-priority nurture — strong onboarding and early incentives |
 | Needs Attention | Immediate engagement — one step from At Risk |
 | At Risk | Direct outreach and competitive analysis (not price/product changes — ruled out as causes) |
-| Lost Customers | Not a recovery priority — use as a pattern to catch early warning signs elsewhere |
+| Lost | Not a recovery priority — use as a pattern to catch early warning signs elsewhere |
 
 **Revenue impact:** Retaining the 76 at-risk customers would **preserve £263,559.73** (1.58% of total revenue) that would otherwise be lost. Including the fully-silent tier, total revenue exposure across both churn groups is **£1,084,450.39**.
 
