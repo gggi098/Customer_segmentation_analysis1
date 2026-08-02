@@ -41,6 +41,9 @@ using RFM (Recency, Frequency, Monetary) analysis on the UCI Online Retail II da
 | `03_analysis_questions.sql` | All 9 analytical sub-questions, one section each |
 | `findings.md` | Question-by-question results and interpretations |
 | `Q10_final_summary.md` | Executive summary, segment recommendations, revenue impact |
+| `revenue_by_segment.png` | Chart — revenue distribution across all 9 customer segments |
+| `quarterly_revenue_trend.png` | Chart — quarterly revenue trend, 2009–2011 |
+| `at_risk_revenue.png` | Chart — revenue exposure from at-risk and fully silent customers |
 
 ---
 
@@ -50,12 +53,21 @@ using RFM (Recency, Frequency, Monetary) analysis on the UCI Online Retail II da
 - **Champions** and **Loyal Customers** — highest across recency, frequency, and monetary value
 - **Top 20 customers** by revenue generate **£3,815,486.59** — **21.88%** of total company revenue
 
+![Revenue by Segment](./revenue_by_segment.png)
+
 ### Who Is At Risk?
 - **76 customers** flagged as at-risk: historically high-value, but activity collapsed in the most recent 3 months. Revenue at stake: **£263,559.73 (1.58% of total revenue)**
 - **232 customers** went completely silent (zero recent activity), representing an additional **£820,890.66** in past revenue
 - Root-cause analysis ruled out product discontinuation and pricing changes — this is **genuine customer churn**, not a catalog or pricing issue
 - Decline is broad-based across nearly every country (65–85% drop), including the UK, our largest market (-75.30%)
 - Cancellation rates for at-risk customers roughly doubled (2.29% → 4.62%) — a secondary warning signal
+
+![At-Risk Revenue Exposure](./at_risk_revenue.png)
+
+### Revenue Trend Over Time
+Revenue grew steadily from 2009 Q4 through 2010 Q4, dropped sharply in 2011 Q1 (-47.87%), then recovered through the rest of 2011 — an overall long-term growth pattern with one notable anomaly.
+
+![Quarterly Revenue Trend](./quarterly_revenue_trend.png)
 
 ### What Should We Do?
 | Segment | Action |
